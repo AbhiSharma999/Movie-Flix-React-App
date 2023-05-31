@@ -1,0 +1,43 @@
+.nav {
+    height: 70px;
+    background: radial-gradient(circle, rgba(63, 136, 251, 1) 0%, rgba(201, 70, 252, 1) 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.title {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 600;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    margin-left: 20px;
+
+    /* &:hover {
+        color: rgb(105, 50, 168)
+    }; */
+}
+
+.cartContainer {
+    position: relative;
+    cursor: pointer;
+}
+
+
+.cartIcon {
+    height: 48px;
+    margin-right: 20px;
+}
+
+.cartCount {
+    /* background-color: ${(props) => props.color}; */
+    border-radius: 50%;
+    padding: 4px 8px;
+    position: absolute;
+    right: 10px;
+    top: -5px;
+    font-size: 12px;
+    /* visibility: ${(props) => props.show? "visible": "hidden"}; */
+}
